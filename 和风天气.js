@@ -565,7 +565,7 @@ function processThreeDayWeather(dailyData, province, city, district) {
         // 获取明天天气图标（使用和风天气官方图标）
         const tomorrowIconUrl = getHeWeatherIcon(futureDays[0].iconDay);
         
-        const title = "📅 明日及未来三天预报";
+        const title = "📅 未来三天天气预报";
         const subtitle = `📍${province}${city}${district}`;
         
         let body = "";
